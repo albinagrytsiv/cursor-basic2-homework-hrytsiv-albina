@@ -1,17 +1,16 @@
-
-.body{
+body{
     width: 100%;
+    background: #37bf1c;
 }
+
 .main1{
 position: relative;
 background-color: #ED4C5C;
 }
 
-.header
-{
+.header1{
 position: absolute;
-
-color: #FFFFFF;
+color: #ffffff;
 font-family: Lato;
 font-style: SemiBold;
 font-size: 36px;
@@ -40,7 +39,6 @@ position: absolute;
 Height:311px;
 Top:94px;
 Left:691px;
-
 cursor: pointer;
 }
 
@@ -104,8 +102,6 @@ border-radius: 6px;
     Line-height: 100%;
     border-radius: 6px;
     Vertical-align:Top;
-  
-  
 }
 
 .Phone{
@@ -126,14 +122,14 @@ border-radius: 6px;
 
 .Selectservice{
 position: absolute;
-margin: 285px 165px 155px 735px;
+margin: 285px 170px 155px 735px;
 border: 1px solid #333333;
 font-family: Lato;
 Font-style: Regular;
 font-size: 16px;
 Line-height: 19px;
 Line-height: 100%;
-width:540px;
+width:544px;
    height: 60px;
    text-indent: 31px;
 Vertical-align:Top;
@@ -157,18 +153,15 @@ margin: 372px 545px 78px 735px;
 }
 
 .back{
-    position: relative;
- 
-    
-    margin-top: 45px;
-    background-color: #FAFAFA;
-    
+position: relative;
+margin-top: 45px;
+background-color: #FAFAFA;
+   
 }
+
 
 .back1{
     position: absolute;
-    width: 259px;
-    height: 254px;
     margin: 85px 1020px 86px 161px;
 }
 
@@ -195,8 +188,6 @@ margin-top: 84px;
 
 .back2{
    position: absolute;
-    width: 254px;
-    height: 164px;
     margin: 85px 736px 186px 450px;
 }
 
@@ -207,7 +198,6 @@ font-weight:700;
 font-size:18px;
 }
 .text5{
- 
     font-family:Lato;
 font-weight:400;
 font-size:12px;
@@ -216,10 +206,7 @@ line-height: 19.2px;
 
 .back3{
     position: absolute;
-    height: 128px;
-    width:  122px;
     margin: 85px 584px 222px 734px;
-
 }
 
 .top4{
