@@ -1,14 +1,16 @@
-.main1
-{
+
+.body{
+    width: 100%;
+}
+.main1{
 position: relative;
-    Width:1440px;
-Height:500px;
 background-color: #ED4C5C;
 }
 
 .header
 {
 position: absolute;
+
 color: #FFFFFF;
 font-family: Lato;
 font-style: SemiBold;
@@ -38,17 +40,18 @@ position: absolute;
 Height:311px;
 Top:94px;
 Left:691px;
-Radius:15px;
+
+cursor: pointer;
 }
 
 .ikonka{
     margin: 357px 1143px 111px 163px;
+    cursor: pointer;
 }
 
 .main2{
 position: relative;
 background-color: #FFFFFF;
-width: 1440px;
 height: 500px;
 }
 
@@ -73,9 +76,9 @@ margin: 213px 830px 223px 176px;
 .Firstname{
     position: absolute;
     margin: 117px 450px 323px 735px;
-  border-color: #333333;
-  width: 265px;
+  width: 255px;
   height: 60px;
+  border: 1px solid #333333;
 font-family: Lato;
 Font-style: Regular;
 font-size: 16px;
@@ -85,15 +88,13 @@ text-indent: 31px;
 Vertical-align:Top;
 border-radius: 6px;
 
-
 }
 
 .Lastname{
     position: absolute;
     margin: 117px 165px 323px 1020px;
-    color: #333333;
-    border-color: #333333;
-    width: 265px;
+    border: 1px solid #333333;
+    width: 255px;
     height: 60px;
     text-indent: 31px;
     font-family: Lato;
@@ -104,13 +105,13 @@ border-radius: 6px;
     border-radius: 6px;
     Vertical-align:Top;
   
+  
 }
 
 .Phone{
     position: absolute;
     margin: 201px 165px 239px 735px;
-    color: #333333;
-    border-color: #333333;
+    border: 1px solid #333333;
     font-family: Lato;
     Font-style: Regular;
     font-size: 16px;
@@ -126,8 +127,7 @@ border-radius: 6px;
 .Selectservice{
 position: absolute;
 margin: 285px 165px 155px 735px;
-color: #333333;
-border-color: #333333;
+border: 1px solid #333333;
 font-family: Lato;
 Font-style: Regular;
 font-size: 16px;
@@ -143,6 +143,7 @@ border-radius: 6px;
 .submit{
     position: absolute;
  background-color: #ED4C5C;
+ cursor: pointer;
 Font-family: Lato;
 Font-style: Regular;
 Font-size: 14px;
@@ -157,8 +158,8 @@ margin: 372px 545px 78px 735px;
 
 .back{
     position: relative;
-    width: 1440px;
-    height: 480px;
+ 
+    
     margin-top: 45px;
     background-color: #FAFAFA;
     
@@ -240,6 +241,7 @@ margin-bottom: 11px;
     font-family:Lato;
 font-weight:400;
 font-size:12px;
+margin-bottom: 25px;
 }
 
 .top5{
@@ -256,3 +258,4 @@ font-size:12px;
     position: absolute;
     margin: 140px 196px 265px 1028px;
 }
+
