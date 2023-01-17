@@ -249,7 +249,7 @@ height: 313px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-column-start:1;
-align-items: center;
+align-items: flex-end ;
 column-gap: 157px;
 border-radius: 16px;
 background: #FFFFFF;
