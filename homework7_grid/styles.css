@@ -18,6 +18,7 @@ font-family: 'Rochester';
 font-size: 32px;
 padding-top: 16px;
 margin-left: 165px; 
+
 }
 
 .ikon-twitter{
@@ -264,6 +265,11 @@ background: #FFFFFF;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
+}
+
+.shoes-3-2{
+    margin-top: 58px;
+
 }
 
 .slideshow-container{
