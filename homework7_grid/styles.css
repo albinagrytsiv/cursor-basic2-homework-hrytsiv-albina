@@ -406,8 +406,9 @@ font-size: 48px;
 width: 1440px;
     display: grid;
     grid-template-columns:repeat(4 ,280px);
-    justify-items: end;
+   
     justify-content: center;
+    
 margin-top: 70px;
 background: #FFFFFF;
 
