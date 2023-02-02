@@ -1,0 +1,163 @@
+
+.background-sword{
+  background-color: black;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+width: 600px;
+height: 500px;
+margin: auto;
+}
+
+.all{
+    width: 300px;
+    height: 100px;
+}
+
+.sw{
+  background-color: rgb(120, 120, 134);
+ width: 300px;
+ height: 15px;
+}
+
+.sword1{
+ margin-bottom: 80px;    
+    transition-timing-function: ease;
+}
+
+.sword2{
+    margin-bottom: 50px;
+    transition-timing-function: ease;
+}
+.sword3{
+    transition-timing-function: ease;
+}
+
+.all:hover > .sword1{
+    box-shadow: 0px 0px 10px 10px rgb(12, 111, 27);
+    transform: translateY(-40px);
+    transition: transform 3s;
+    background-color: rgb(176, 244, 18);
+}
+
+.sword:hover >.sword2{
+    box-shadow: 0px 0px 10px 10px rgb(184, 42, 42);
+    transition: transform 3s;
+    transform: rotate(40deg);
+    background-color: rgb(16, 165, 115);
+}
+
+.sword:hover > .sword3{
+    box-shadow: 0px 0px 10px 10px rgb(137, 42, 184);
+    transform: rotate(-30deg);
+    transition: transform 1s;
+    background-color: rgb(255, 127, 146);
+}
+
+/* 2 */
+.ball1-7{
+background-color: rgb(12, 12, 7);
+width: 800px;
+height: 400px;
+line-height: 400px;
+text-align: center;
+margin: auto;
+margin-top: 30px;
+}
+
+.ball{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.ball1{
+    animation-name: ball1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ball1{
+    0% { background-color: blue;
+    rotate:0deg;}
+    20%{ background-color: rgb(24, 80, 177);
+    transform:translate(-40px,-60px);}
+    30% {background-color: rgb(29, 19, 219);}
+}
+
+.ball2{
+    animation-name: ball2;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ball2{
+    0% { background-color: blue;}
+    20%{ background-color: rgb(9, 98, 252);}
+
+    30% {background-color: rgb(16, 160, 176);}
+}
+
+.ball3{
+    animation-name: ball3;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ball3{
+    0% { background-color: rgb(16, 160, 176);}
+    20%{ background-color: rgb(12, 134, 148);}
+    30% {background-color: rgb(11, 110, 121);}
+}
+
+.ball4{
+    animation-name: ball4;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ball4{
+    0% { background-color: rgb(11, 110, 121);}
+    20%{ background-color: rgb(12, 84, 92);}
+    30% {background-color: rgb(2, 69, 77);}
+}
+
+.ball5{
+    animation-name: ball5;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ball5{
+    0% { background-color: rgb(2, 69, 77);}
+    20%{ background-color: rgb(6, 99, 109);}
+    30% {background-color: rgb(4, 137, 151);}
+}
+
+.ball6{
+    animation-name: ball6;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ball6{
+    0% { background-color: rgb(4, 137, 151);}
+    20%{ background-color: rgb(7, 168, 185);}
+    30% {background-color: rgb(10, 217, 240);}
+}
+
+.ball7{
+    animation-name: ball7;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ball7{
+    0% { background-color: rgb(10, 217, 240);}
+    20%{ background-color: rgb(18, 88, 96);
+        transform:translate(40px,-60px);}
+    30% {background-color: rgb(13, 75, 82);}
+}
