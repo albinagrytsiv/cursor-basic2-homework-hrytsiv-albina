@@ -152,6 +152,7 @@ animation-iteration-count: infinite;
 .ball7{
     animation-name: ball7;
 animation-duration: 4s;
+animation-delay: 3s;
 animation-iteration-count: infinite;
 }
 
