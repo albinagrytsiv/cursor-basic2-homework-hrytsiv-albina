@@ -209,7 +209,7 @@ flex-direction: column;
     
 }
 
-.container1{
+.slider1, .slider2, .slider3, .slider4{
     display: flex;
     justify-content: center;
     align-items: center;

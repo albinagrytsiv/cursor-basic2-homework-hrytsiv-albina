@@ -15,17 +15,20 @@ width: 100px;
     
 }
 
+
 .type:nth-child(4n+3){
     background: rgb(255, 60, 0);
 }
+
 .type:nth-child(n+21)
 {
     background: rgb(55, 0, 255);
 }
+
+
 .type:nth-child(23){
     background: rgb(255, 60, 0);
 }
-
 
 
 
